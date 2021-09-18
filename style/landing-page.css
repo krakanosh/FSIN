@@ -283,6 +283,10 @@ span {
     border-radius: 6px;
     width: 864px;
     height: 1168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h4 {
@@ -349,6 +353,12 @@ h4 {
 .form__sender-devider {
     border-bottom: 1px solid #e0e6ed;
     width: 100%;
+}
+
+.convict__data {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .convict__name {
@@ -486,7 +496,7 @@ h4 {
     margin-bottom: 40px;
 }
 
-.form_submit {
+.form__submit {
     margin-top: 52px;
 }
 
