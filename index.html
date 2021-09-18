@@ -6,7 +6,7 @@
 	<meta name="viewport"
 		content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
 	<title>FSIN</title>
 	<meta name="description" content="udo">
 	<link href="style/landing-page.css" rel="stylesheet" type="text/css">
@@ -75,10 +75,12 @@
 									<h2>Как это работает</h2>
 									<p>Мы вместе с вами всё сделаем в 6 этапов</p>
 									<div class="how__it--works--wrap">
-										<li>Вы оставляете нам заявку на помощь по УДО с максимально широким описанием всех
+										<li>Вы оставляете нам заявку на помощь по УДО с максимально широким описанием
+											всех
 											данных
 										</li>
-										<li>Вы оставляете нам заявку на помощь по УДО с максимально широким описанием всех
+										<li>Вы оставляете нам заявку на помощь по УДО с максимально широким описанием
+											всех
 											данных
 										</li>
 										<li>Мы с вами договариваемся о начале партнерства и заключаем договор</li>
@@ -124,7 +126,7 @@
 					<div class="block__advantages">
 						<img src=" /img/auction.svg" alt="Ой, картинка не загрузилась(">
 						<p>Повышенная вероятность выхода по УДО</p>
-					</div >
+					</div>
 					<div class="block__advantages">
 						<img src=" /img/location.svg" alt="Ой, картинка не загрузилась(">
 						<p>Работаем со всеми регионами, вне зависимости от расположения</p>
@@ -135,38 +137,52 @@
 						<h2>Цены</h2>
 						<h3>18 900 ₽</h3>
 						<p>стоимость полного комплекта документов, для подачи на УДО от имени заключенного</p>
-						<span><strong>25 000 – 35 000 рублей</strong> – средняя стоимость сопровождения по России по подаче документов по
+						<span><strong>25 000 – 35 000 рублей</strong> – средняя стоимость сопровождения по России по
+							подаче документов по
 							УДО</span>
 					</div>
 				</div>
 			</div>
 
 			<div class="form" id="form">
-				<form action="#" method="post" enctype="multipart/form-data">
+				<h2>Заполните форму</h2>
+				<div class="form__wrapper">
+					<form action="#" method="post" enctype="multipart/form-data"></form>
 					<div class="your__data">
-						<input type="text" name="your_name" placeholder="Фамилия, имя и отчество">
-						<input type="tel" name="phone" placeholder="Мобильный телефон">
-						<input type="email" name="usermail" placeholder="Электронная почта">
+						<h4>Ваши данные</h4>
+						<input type="text" name="your_name" class="your__name" placeholder="Фамилия, имя и отчество">
+						<input type="tel" name="phone" class="your__phone" id="phone" placeholder="Мобильный телефон">
+						<input type="email" name="usermail" class="your__email" placeholder="Электронная почта">
 					</div>
+					<div class="form__sender-devider"></div>
 					<div class="convict__data">
 						<h4>Данные осужденного</h4>
-						<input type="text" name="convict_name" placeholder="Фамилия, имя и отчество">
-						<input type="date" name="bday" placeholder="Дата рождения">
-						<input type="text" placeholder="Регион">
-						<input type="text" placeholder="Учреждение">
-						<input type="text" placeholder="Статья">
-						<input type="text" placeholder="Наличие ущерба">
-						<input type="text" placeholder="Срок">
-						<input type="text" placeholder="Окончание срока">
-						<ul>
-							<li>Приложить копию судебных документов</li>
-						</ul>
-						<input type="file" name="">
+						<input type="text" name="convict__name" class="convict_name"
+							placeholder="Фамилия, имя и отчество">
+						<input type="date" name="bday" class="convict__bday" placeholder="Дата рождения">
+						<input type="text" name="convict__region" class="convict__region" placeholder="Регион">
+						<input type="text" name="convict__institution" class="convict__institution"
+							placeholder="Учреждение">
+						<input type="text" name="article" class="convict__article" placeholder="Статья">
+						<input type="text" name="presence_of_damage" class="damage" placeholder="Наличие ущерба">
+						<input type="text" name="term" class="term" placeholder="Срок">
+						<input type="text" name="end__term" class="end__term" placeholder="Окончание срока">
+						<div class="form__file">
+							<ul>
+								<li>Приложить копию судебных документов</li>
+							</ul>
+							<input type="file" name="">
+						</div>
 					</div>
+					<div class="form__sender-devider"></div>
 					<div class="form_submit">
-						<div><input type="checkbox" name="">Я принимаю условия передачи информации</div>
-						<button type="submit">Оставить заявку</button>
+						<div>
+							<input type="checkbox" name="eula" class="eula">Я принимаю условия передачи информации
+							<button type="submit" class="submit">Оставить заявку</button>
+						</div>
+						
 					</div>
+				</div>
 
 				</form>
 			</div>

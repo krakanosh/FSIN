@@ -175,7 +175,6 @@
 
 .advantages__and__price {
     height: 1332px;
-    
 }
 
 .advantages__wrap {
@@ -262,6 +261,241 @@ span {
     font-feature-settings: "pnum" on, "lnum" on;
     color: #3d4b66;
     margin-bottom: 20px;
+}
+
+.form {
+    height: 1392px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 60px; */
+}
+
+.form h2 {
+    margin-bottom: 60px;
+}
+
+.form__wrapper {
+    background: #ffffff;
+    border: 1px solid #dddfe0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 864px;
+    height: 1168px;
+}
+
+h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #3d4b66;
+    margin-top: 42px;
+}
+
+.your__name {
+    width: 592px;
+    height: 64px;
+    width: 592px;
+    height: 64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    background: #eef2f7;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 0 12px;
+    margin-top: 32px;
+}
+
+.your__phone {
+    width: 278px;
+    height: 64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    background: #eef2f7;
+    border-radius: 4px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+    margin-right: 33px;
+    padding: 0 12px;
+}
+
+.your__email {
+    width: 278px;
+    height: 64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    background: #eef2f7;
+    border-radius: 4px;
+    margin-top: 32px;
+    padding: 0 12px;
+}
+
+.form__sender-devider {
+    border-bottom: 1px solid #e0e6ed;
+    width: 100%;
+}
+
+.convict__name {
+    width: 592px;
+    height: 64px;
+    width: 592px;
+    height: 64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    background: #eef2f7;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 0 12px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.convict__bday {
+    height: 64px;
+    width: 592px;
+    height: 64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    background: #eef2f7;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 0 12px;
+    margin-bottom: 32px;
+}
+
+.convict__region {
+    width: 278px;
+    height: 64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    background: #eef2f7;
+    border-radius: 4px;
+    margin-top: 32px;
+    margin-right: 33px;
+    padding: 0 12px;
+}
+
+.convict__institution {
+    width: 278px;
+    height: 64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    background: #eef2f7;
+    border-radius: 4px;
+    margin-top: 32px;
+    padding: 0 12px;
+}
+
+.convict__article {
+    width: 278px;
+    height: 64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    background: #eef2f7;
+    border-radius: 4px;
+    margin-top: 32px;
+    margin-right: 33px;
+    padding: 0 12px;
+}
+
+.damage {
+    width: 278px;
+    height: 64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    background: #eef2f7;
+    border-radius: 4px;
+    margin-top: 32px;
+    padding: 0 12px;
+}
+
+.term {
+    width: 278px;
+    height: 64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    background: #eef2f7;
+    border-radius: 4px;
+    margin-top: 32px;
+    margin-right: 33px;
+    padding: 0 12px;
+}
+
+.end__term {
+    width: 278px;
+    height: 64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    background: #eef2f7;
+    border-radius: 4px;
+    margin-top: 32px;
+    padding: 0 12px;
+}
+
+.form__file {
+    width: 592px;
+    height: 132px;
+    border: 1px dashed #9299a2;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+
+.form_submit {
+    margin-top: 52px;
+}
+
+.eula {
+    margin-right: 16px;
+}
+
+.submit {
+    margin-left: 110px;
 }
 
 @media (max-width: 1200px) {
