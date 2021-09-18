@@ -17,15 +17,23 @@
 	float: left;
 }
 
+.logo {
+	float: left;
+}
+
+nav {
+	display: flex;
+	align-items: space-around;
+	justify-content: space-around;
+}
+
 .container__head {
 	background-image: url("../img/head.svg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	max-width: 100%;
 	height: 620px;
-}
-
-.container__head {
+	margin-top: 60px;
 }
 
 /* @media (max-width: 1200px) {

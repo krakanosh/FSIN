@@ -14,12 +14,13 @@
 </head>
 
 <body>
-
 	<div class="page-wrapper">
-		<div>
+		<div class="head__wrap">
 			<header class="header">
 				<div class="menu">
-					<img src="img/logo.svg" alt="">
+					<div class="logo">
+						<img src="img/logo.svg" alt="">
+					</div>
 					<nav>
 						<a href="#">Подготовим УДО</a>
 						<a href="#">Как это работает</a>
@@ -29,25 +30,128 @@
 					</nav>
 				</div>
 		</div>
-			<div class="container__head">
-				<h1>Условно-досрочное освобождение</h1>
-				<p>Поможем правильно и в кратчайшие сроки собрать все необходимые документы. Помогаем с УДО заключенным во всех учреждениях
+		<div class="container__head">
+			<h1>Условно-досрочное освобождение</h1>
+			<p>Поможем правильно и в кратчайшие сроки собрать все необходимые документы. Помогаем с УДО заключенным во
+				всех учреждениях
 				России!</p>
-				<button>Оставить заявку</button>
-			</div>
+			<button>Оставить заявку</button>
+		</div>
 		</header>
 		<main class="landing-page">
-			<section>
-				<div class="container">
+			<div>
+				<section>
+					<div class="prepare__udo">
+						<div class="prepare__udo__block__1">
+							<h2>Подготовим УДО</h2>
+							<ul>
+								<li>Поможем быстро собрать все справки и документы</li>
+								<li>Подготовим заявления и ходатайства для суда</li>
+								<li>Гарантированно организуем справку о сохранении социальных связей *</li>
+							</ul>
+							<span>* Для пользователей сервисами «Зонателеком»</span>
+						</div>
+						<div class="prepare__udo__block__2">
+							<h2>Вам останется только дождаться суда</h2>
+							<p>Весь пакет документов будет собран и проверен нашими юристами, так что придраться
+								к правильности подготовке документов
+								на суде не смогут!</p>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="container">
+						<div class="how__it__works">
+							<h2>Как это работает</h2>
+							<p>Мы вместе с вами всё сделаем в 6 этапов</p>
+							<ol>
+								<li>Вы оставляете нам заявку на помощь по УДО с максимально широким описанием всех
+									данных
+								</li>
+								<li>Вы оставляете нам заявку на помощь по УДО с максимально широким описанием всех
+									данных
+								</li>
+								<li>Мы с вами договариваемся о начале партнерства и заключаем договор</li>
+								<p>Некоторые заседания по УДО сейчас проводятся в дистанционном режиме из-за карантинов
+								</p>
+								<li>После оплаты услуг наши юристы приступают к работе по вашему делу — запрашивают все
+									необходимые справки, составляют все
+									необходимые документы!
+									Все что можно сделать по закону без вашего участия — мы берем на себя или делаем
+									от вашего имени</li>
+								<li>Готовый пакет документов после итоговой консультации мы с вами отправляем
+									в соответствующую инстанцию</li>
+								<li>Даем вам полные инструкции по участию вас и ваших близких людей в процессе по УДО
+								</li>
+							</ol>
+						</div>
+					</div>
+				</section>
+			</div>
 
+			<div class="advantages__and__price">
+				<div class="advantages">
+					<div>
+						<img src="" alt="">
+						<p>Гарантированно даем справку о наличии социальных связях</p>
+					</div>
+					<div>
+						<img src="" alt="">
+						<p>Большую часть документов оформляем без вашего участия</p>
+					</div>
+					<div>
+						<img src="" alt="">
+						<p>Повышенная вероятность выхода по УДО</p>
+					</div>
+					<div>
+						<img src="" alt="">
+						<p>Работаем со всеми регионами, вне зависимости от расположения</p>
+					</div>
 				</div>
-			</section>
+				<div class="price">
+					<div>
+						<h2>Цены</h2>
+						<h3>18 900 ₽</h3>
+						<p>стоимость полного комплекта документов, для подачи на УДО от имени заключенного</p>
+						<p>25 000 – 35 000 рублей – средняя стоимость сопровождения по России по подаче документов по
+							УДО</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="form">
+				<form action="#" method="post" enctype="multipart/form-data">
+					<div class="your__data">
+						<input type="text" name="your_name" placeholder="Фамилия, имя и отчество">
+						<input type="tel" name="phone" placeholder="Мобильный телефон">
+						<input type="email" name="usermail" placeholder="Электронная почта">
+					</div>
+					<div class="convict__data">
+						<h4>Данные осужденного</h4>
+						<input type="text" name="convict_name" placeholder="Фамилия, имя и отчество">
+						<input type="date" name="bday" placeholder="Дата рождения">
+						<input type="text" placeholder="Регион">
+						<input type="text" placeholder="Учреждение">
+						<input type="text" placeholder="Статья">
+						<input type="text" placeholder="Наличие ущерба">
+						<input type="text" placeholder="Срок">
+						<input type="text" placeholder="Окончание срока">
+						<ul>
+							<li>Приложить копию судебных документов</li>
+						</ul>
+						<input type="file" name="">
+					</div>
+					<div class="form_submit">
+						<div><input type="checkbox" name="">Я принимаю условия передачи информации</div>
+						<button type="submit">Оставить заявку</button>
+					</div>
+
+				</form>
+			</div>
+
 		</main>
 		<footer class="footer">
-			<div class="container">
-				<nav></nav>
-				<address></address>
-			</div>
+			<h6>© 2020, ООО «Защищённые Телекоммуникации». Все права защищены.</h6>
 		</footer>
 	</div>
 
