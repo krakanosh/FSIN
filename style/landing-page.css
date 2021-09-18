@@ -1,25 +1,120 @@
 @import "normalize.css";
-@import "base.css";
-@import "container.css";
 @import "header.css";
 @import "footer.css";
 
-.landing-page {
+/* .landing-page {
     padding-top: 60px;
     flex: 1 1 auto;
+} */
+
+.prepare__udo {
+    height: 760px;
+    display: flex;
+    justify-content: space-around;
 }
+
+.prepare__udo--block--1 {
+    width: 438px;
+    height: 288px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #3d4b66;
+}
+
+.prepare__udo--block--1 span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.prepare__udo--block--1 li {
+    list-style-image: url("../img/Zero.svg");
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.prepare__udo--block--1 h2 {
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.prepare__udo--block--2 {
+    width: 488px;
+    height: 488px;
+    background: #ffffff;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.udo--block--2wrap {
+    width: 352px;
+    height: 208px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.udo--block--2wrap h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #1939de;
+}
+
+.udo--block--2wrap p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.how__it__works {
+    height: 748px;
+    background: #eef2f7;
+}
+
+.how__it__works p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #3d4b66;
+}
+
 @media (max-width: 1200px) {
     .landing-page {
-
     }
 }
 @media (max-width: 992px) {
     .landing-page {
-
     }
 }
 @media (max-width: 768px) {
     .landing-page {
-
     }
 }

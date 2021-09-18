@@ -14,11 +14,17 @@
 
 .header .menu {
 	width: 100%;
+	height: 80px;
 	float: left;
 }
 
 .logo {
 	float: left;
+	margin-left: 352px;
+}
+
+.logo img {
+	padding-top: 17px;
 }
 
 nav {
@@ -27,13 +33,87 @@ nav {
 	justify-content: space-around;
 }
 
+nav a:nth-child(5) {
+	margin-right: 352px;
+}
+
+nav a {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: #3d4b66;
+	padding-top: 28px;
+}
+
+nav a:hover {
+	color: #1939de;
+}
+
 .container__head {
 	background-image: url("../img/head.svg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	max-width: 100%;
 	height: 620px;
+	/* margin-top: 60px; */
+}
+
+h1 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 60px;
+	line-height: 64px;
+	color: #3d4b66;
+	margin-top: 120px;
+}
+
+.page-wrapper .container__head p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: #3d4b66;
+	margin-top: 37px;
+	margin-bottom: 56px;
+}
+
+.page-wrapper .container__head button {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px 16px;
+	width: 142px;
+	height: 44px;
+	background: #1939de;
+	color: white;
+	border-radius: 3px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.container__head--wrap {
 	margin-top: 60px;
+	margin-left: 352px;
+	display: flex;
+	flex-direction: column;
+}
+
+h2 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 60px;
+	display: flex;
+	align-items: center;
+	color: #3d4b66;
 }
 
 /* @media (max-width: 1200px) {
