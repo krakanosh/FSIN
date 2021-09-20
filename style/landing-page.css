@@ -1,6 +1,7 @@
 @import "normalize.css";
 @import "header.css";
 @import "footer.css";
+@import "burger.css";
 
 /* .landing-page {
     padding-top: 60px;
@@ -37,13 +38,10 @@
     list-style-image: url("/img/zero.svg");
     list-style-position: outside;
     line-height: 1.8;
-    
 }
 
 .prepare__udo--block--1 ul {
     margin-left: 80px;
-
-    
 }
 
 .prepare__udo--block--1 h2 {
@@ -394,7 +392,6 @@ h4 {
 }
 
 .convict__bday {
-    height: 64px;
     width: 592px;
     height: 64px;
     font-family: Roboto;
@@ -525,15 +522,27 @@ h4 {
 
 .form__file li {
     list-style-image: url("/img/clip_frame.svg");
-    /* background: url("/img/clip_frame.svg") no-repeat left center; */
     list-style-position: inside;
 }
 
 .file__selection {
-    margin-left: 18px;
+    width: 142px;
+    height: 44px;
+    margin-left: 28px;
     color: #1939de;
-    /* width: 124px;
-    height: 44px; */
+    border: 1px solid #1939de;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #1939de;
+    justify-content: center;
 }
 
 .form__submit {
@@ -570,6 +579,11 @@ h4 {
     margin-bottom: 3px;
     background: #1939de;
     border-radius: 4px;
+    transform: scale(1.4);
+    opacity: 0.9;
+    cursor: pointer;
+    background: #1939de;
+    border-radius: 4px;
 }
 
 .submit {
@@ -587,10 +601,12 @@ h4 {
     line-height: 24px;
 }
 
-/* {
-    background: #1939de;
-    border-radius: 4px;
-} */
+/* #date-inp::-webkit-calendar-picker-indicator {
+    border: 1px dashed red;
+    width: 982px;
+    height: 64px;
+    opacity: 0;
+    cursor: pointer;} */
 
 @media (max-width: 1200px) {
     . {

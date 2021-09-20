@@ -19,7 +19,7 @@
 		<div class="head__wrap">
 			<header class="header">
 				<div class="logo">
-					<img src="img/logo.svg" alt="">	
+					<img src="img/logo.svg" alt="">
 				</div>
 				<div class="menu">
 					<nav>
@@ -28,10 +28,24 @@
 						<a href="#">Наши преимущества</a>
 						<a href="#">Цены</a>
 					</nav>
-					<div class="tell__number">
-						<a href="tel:+78006004323"><strong>8 800 600-43-23</strong></a>
-					</div>
 				</div>
+				<div class="tell__number">
+					<a href="tel:+78006004323"><strong>8 800 600-43-23</strong></a>
+				</div>
+				<!-- Бургер начало -->
+				<div class="hamburger-menu">
+					<input id="menu__toggle" type="checkbox" />
+					<label class="menu__btn" for="menu__toggle">
+						<span></span>
+					</label>
+					<ul class="menu__box">
+						<li><a class="menu__item" href="#">Подготовим УДО</a></li>
+						<li><a class="menu__item" href="#">Как это работает</a></li>
+						<li><a class="menu__item" href="#">Наши преимущества</a></li>
+						<li><a class="menu__item" href="#">Цены</a></li>
+					</ul>
+				</div>
+				<!-- бургер конец -->
 		</div>
 		<div class="container__head">
 			<div class="container__head--wrap">
@@ -163,7 +177,8 @@
 						<div>
 							<input type="text" name="convict__name" class="convict__name"
 								placeholder="Фамилия, имя и отчество">
-							<input type="date" name="bday" class="convict__bday" placeholder="Дата рождения">
+							<input type="text" onfocus="(this.type='date')" name="bday" class="convict__bday"
+								id="date-inp" placeholder="Дата рождения">
 						</div>
 						<div>
 							<input type="text" name="convict__region" class="convict__region" placeholder="Регион">
@@ -176,15 +191,16 @@
 						</div>
 						<div>
 							<input type="text" name="term" class="term" placeholder="Срок">
-							<input type="text" name="end__term" class="end__term" placeholder="Окончание срока">
+							<input type="text" onfocus="(this.type='date')" name="end__term" class="end__term"
+								placeholder="Окончание срока">
 						</div>
 						<div class="form__file">
 							<ul>
 								<li>Приложить копию судебных документов</li>
 							</ul>
-							<input type="file" name="file" class="file__selection">
-							<!-- <input type="file" name="uploadfile" id="img" style="display:none;" />
-							<label for="img">Click me to upload image</label> -->
+							<!-- <input type="file" name="file" class="file__selection"> -->
+							<input type="file" name="uploadfile" id="img" style="display:none;" />
+							<label for="img" class="file__selection">Выберите файл</label>
 						</div>
 					</div>
 					<div class="form__sender-devider"></div>
@@ -193,16 +209,7 @@
 							<input type="checkbox" name="eula" class="eula">
 							<p>Я принимаю <a href="#">условия передачи информации</a></p>
 							<button type="submit" class="submit">Оставить заявку</button>
-							<!-- окно -->
-							<form class="contact-form"></form>
 
-							<div class="alert alert-success" style="display: none">
-								Спасибо за обращение к нам! Мы постараемся перезвонить Вам как можно скорее!
-							</div>
-
-							<a href="" class="btn btn-default">Отправить</a>
-
-							<!-- окно конец -->
 						</div>
 					</div>
 
