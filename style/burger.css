@@ -5,10 +5,10 @@
 /* стилизуем кнопку */
 .menu__btn {
   display: flex; /* используем flex для центрирования содержимого */
-  align-items: center;  /* центрируем содержимое кнопки */
+  align-items: center; /* центрируем содержимое кнопки */
   position: fixed;
   top: 20px;
-  left: 20px;
+  right: 36px;
   width: 26px;
   height: 26px;
   cursor: pointer;
@@ -22,20 +22,22 @@
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: #616161;
+  background-color: #1939de;
 }
 .menu__btn > span::before {
-  content: '';
+  content: "";
   top: -8px;
 }
 .menu__btn > span::after {
-  content: '';
+  content: "";
   top: 8px;
 }
 
 /* контейнер меню */
 .menu__box {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: fixed;
   visibility: hidden;
   top: 0;
@@ -46,21 +48,25 @@
   padding: 80px 0;
   list-style: none;
   text-align: center;
-  background-color: #ECEFF1;
-  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  background-color: #dddfe0;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
 }
+
+/* .menu__box {
+  margin-bottom: 200px;
+} */
 /* элементы меню */
 .menu__item {
   display: block;
   padding: 12px 24px;
-  color: #333;
-  font-family: 'Roboto', sans-serif;
+  color: #3d4b66;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 600;
   text-decoration: none;
 }
 .menu__item:hover {
-  background-color: #CFD8DC;
+  background-color: #cfd8dc;
 }
 
 #menu__toggle:checked ~ .menu__btn > span {

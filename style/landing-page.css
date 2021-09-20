@@ -14,9 +14,20 @@
     justify-content: space-around;
 }
 
-.prepare__udo--block--1 {
-    width: 438px;
-    height: 288px;
+.prepare__udo--block--1 h2 {
+    margin-top: 120px;
+    margin-bottom: 1vh;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #3d4b66;
+}
+
+.prepare__udo--block--1 li {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -42,11 +53,7 @@
 
 .prepare__udo--block--1 ul {
     margin-left: 80px;
-}
 
-.prepare__udo--block--1 h2 {
-    margin-top: 120px;
-    margin-bottom: 80px;
 }
 
 .prepare__udo--block--2 {
