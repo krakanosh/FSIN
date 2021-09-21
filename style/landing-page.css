@@ -53,7 +53,6 @@
 
 .prepare__udo--block--1 ul {
     margin-left: 80px;
-
 }
 
 .prepare__udo--block--2 {
@@ -615,7 +614,7 @@ h4 {
     opacity: 0;
     cursor: pointer;} */
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
     . {
     }
 }
@@ -627,4 +626,4 @@ h4 {
 @media (max-width: 768px) {
     .landing-page {
     }
-}
+} */
