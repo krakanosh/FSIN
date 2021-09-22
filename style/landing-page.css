@@ -3,20 +3,16 @@
 @import "footer.css";
 @import "burger.css";
 
-/* .landing-page {
-    padding-top: 60px;
-    flex: 1 1 auto;
-} */
-
 .prepare__udo {
-    height: 760px;
+    height: 730px;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
 }
 
 .prepare__udo--block--1 h2 {
-    margin-top: 120px;
-    margin-bottom: 1vh;
+    margin-top: 30%;
+    /* margin-bottom: 1; */
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -27,7 +23,32 @@
     color: #3d4b66;
 }
 
-.prepare__udo--block--1 li {
+.prepare__udo--block--1 span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 9%;
+}
+.udo__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 400px;
+    height: 288px;
+}
+
+.qwe {
+    width: 528px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.qwe p {
+    padding-top: 8px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -35,24 +56,6 @@
     line-height: 32px;
     font-feature-settings: "pnum" on, "lnum" on;
     color: #3d4b66;
-}
-
-.prepare__udo--block--1 span {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.prepare__udo--block--1 li {
-    list-style-image: url("/img/zero.svg");
-    list-style-position: outside;
-    line-height: 1.8;
-}
-
-.prepare__udo--block--1 ul {
-    margin-left: 80px;
 }
 
 .prepare__udo--block--2 {
@@ -204,7 +207,7 @@
 .advantages {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
     max-width: 100%;
     height: 420px;
@@ -222,8 +225,8 @@
     border: 1px solid #dddfe0;
     box-sizing: border-box;
     border-radius: 4px;
-    margin-right: 32px;
-    margin-right: 50px;
+    /* margin-right: 32px;
+    margin-right: 50px; */
 }
 
 .block__advantages p,
