@@ -30,7 +30,6 @@
 }
 
 .logo {
-	/* margin-left: 12%; */
 	display: flex;
 	flex-direction: row;
 	justify-content: baseline;
@@ -100,7 +99,7 @@ nav a:hover {
 .container__head {
 	background-image: url("../img/head.svg");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	/* min-width: 100%; */
 	height: 520px;
 	/* display: flex; */
@@ -282,16 +281,123 @@ h2 {
 	}
 }
 
-/* @media (max-width: 992px) {
+@media (max-width: 360px) {
+	.page-wrapper {
+	}
+	.head__wrap {
+	}
 	.header {
 	}
-	.header .menu {
+	.logo {
+		margin-left: 10vh;
+	}
+	.menu {
+		display: none;
+	}
+	.tell__number {
+		display: none;
+	}
+	.hamburger-menu {
+	}
+	.menu__btn {
+	}
+	.menu__box {
+	}
+	.menu__item {
+	}
+	.container__head {
+	}
+	.container__head--wrap {
+		margin-top: 60px;
+		background-size: contain;
+		background-position: left;
+	}
+
+	.container__head--wrap h1 {
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	.landing-page {
+	}
+	.prepare__udo {
+	}
+	.prepare__udo--block--1 {
+	}
+	.udo__wrap {
+	}
+	.qwe {
+	}
+	.prepare__udo--block--2 {
+	}
+	.udo--block--2wrap {
+	}
+	.how__it__works {
+	}
+	.wrap {
+	}
+	.how__it__works--block1 {
+	}
+	.how__it--works--wrap {
+	}
+	.how__it--works--wrap2 {
+	}
+	.how__it__works--block2 {
+	}
+	.advantages__and__price {
+	}
+	.advantages__wrap {
+	}
+	.advantages {
+	}
+	.block__advantages {
+	}
+	.price {
+	}
+	.price__wrap {
+	}
+	.form {
+	}
+	.form__wrapper {
+	}
+	.your__data {
+	}
+	.your__name {
+	}
+	.your__phone {
+	}
+	.your__email {
+	}
+	.form__sender-devider {
+	}
+	.convict__data {
+	}
+	.convict__name {
+	}
+	.convict__bday {
+	}
+	.convict__region {
+	}
+	.convict__institution {
+	}
+	.convict__article {
+	}
+	.damage {
+	}
+	.term {
+	}
+	.end__term {
+	}
+	.form__file {
+	}
+	.file__selection {
+	}
+	.form__submit {
+	}
+	.eula {
+	}
+	.submit {
+	}
+	.footer {
 	}
 }
-
-@media (max-width: 768px) {
-	.header {
-	}
-	.header .menu {
-	}
-} */
