@@ -30,10 +30,7 @@
 }
 
 .logo {
-	display: flex;
-	flex-direction: row;
-	justify-content: baseline;
-	align-items: baseline;
+	margin-right: 30vh;
 }
 
 .logo img {
@@ -72,6 +69,7 @@ nav a:hover {
 	display: flex;
 	align-items: flex-end;
 	justify-content: flex-end;
+	margin-left: 30vh;
 }
 
 .tell__number a {
@@ -174,9 +172,12 @@ h2 {
 }
 
 @media (max-width: 1200px) {
-	.logo {
+	.head__wrap {
 		display: flex;
-		margin-right: 50%;
+		justify-content: center;
+	}
+
+	.logo {
 	}
 
 	nav {
@@ -184,9 +185,7 @@ h2 {
 		display: none;
 	}
 	.tell__number {
-		display: flex;
-		justify-content: flex-end;
-		align-items: flex-end;
+		margin-left: 65vh;
 	}
 
 	.hamburger-menu {
@@ -289,7 +288,7 @@ h2 {
 	.header {
 	}
 	.logo {
-		margin-left: 10vh;
+		margin-left: 15vh;
 	}
 	.menu {
 		display: none;
