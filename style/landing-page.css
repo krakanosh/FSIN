@@ -209,8 +209,14 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
-    max-width: 100%;
+    max-width: 50vw;
     height: 420px;
+}
+
+.advantagses__flex {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .block__advantages {
@@ -225,8 +231,7 @@
     border: 1px solid #dddfe0;
     box-sizing: border-box;
     border-radius: 4px;
-    /* margin-right: 32px;
-    margin-right: 50px; */
+    margin-left: 2vw;
 }
 
 .block__advantages p,
@@ -281,6 +286,16 @@ span {
     font-feature-settings: "pnum" on, "lnum" on;
     color: #3d4b66;
     margin-bottom: 20px;
+}
+
+.price__wrap h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #3d4b66;
 }
 
 .form {
@@ -529,8 +544,9 @@ h4 {
     /* list-style-type: upper-roman; */
 }
 
-.form__file ul li {
-    list-style-image: url("/img/clip_frame.svg");
+.form__file li {
+    list-style-image: url("img/clip_frame.svg");
+    /* background: url("/img/clip_frame.svg") no-repeat left center; */
     list-style-position: inside;
 }
 

@@ -6,7 +6,14 @@
     justify-content: center;
     background: #eef2f7;
 }
-.footer .container {
+.footer h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #3d4b66;
+    margin-right: 55vh;
 }
 
 @media (max-width: 1200px) {
